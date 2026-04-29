@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <style>
+        label{
+            display: inline-block;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <fieldset>
+    <fieldset>
+        <legend>VOS COORDONNÉES</legend>
+        <label for="nom">Nom :</label>
+        <input type="text"  name="nom" placeholder="Votre nom"><br><br>
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" placeholder="Votre prénom"><br><br>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="Votre email"><br>
+        <label for="homme">Homme:</label>
+        <input type="radio" id="homme" name="genre" ><br>
+        <label for="">Femm:e</label>
+        <input type="radio" id="femme" name="genre"  ><br>
+        <label for="code">Code :</label>
+        <input type="text" id="code" name="code"><br><br>
+        <label for="pafemmeys">Votre pays :</label>
+        <select id="pays" name="pays">
+            <option>Maroc</option>
+            <option>France</option>
+            <option>Espagne</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Vos goûts</legend>
+        <label>Pommes :</label>
+        <input type="checkbox" name="gout" value="pommes"><br>
+        <label>Poires :</label>
+        <input type="checkbox" name="gout" value="poires"><br><br>
+        <label >Décrivez-nous<br> vos goûts en <br>détails :</label>
+        <textarea rows="3" cols="50" placeholder="Exprimez-vous ici..."></textarea><br><br>
+    </fieldset>
+    <fieldset>
+        <input type="submit">
+    </fieldset>
+</form>
+</fieldset>
+</body>
+</html>
